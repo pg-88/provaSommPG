@@ -172,7 +172,7 @@ def main() -> None:
 
             st.write(ins)
             
-            model.predict(ins)
+            model.predict()
     
 
 
