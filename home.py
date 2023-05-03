@@ -26,14 +26,6 @@ def header():
 def authenticate(user, password) -> bool:
     '''non fa nulla oltre che controllare un json'''
     auth = False
-
-
-
-
-        
-
-
-        #st.write(df)
     with open("resource/users.json") as json_file:
         users = json.load(json_file)
         print(users)

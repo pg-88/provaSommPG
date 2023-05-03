@@ -1,6 +1,6 @@
-seaborn
 pandas
 scikit-learn
 numpy
 joblib
 json
+seaborn
